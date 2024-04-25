@@ -1,15 +1,12 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <div>
-          <h1 className="text-sm">Desa Dukuwaluh</h1>
-          <h1>Kabupaten Banyumas</h1>
-        </div>
-        <div></div>
-      </div>
-    </main>
-  );
+   <>
+    <Navbar />
+    <Hero />
+  </>
+  )
+  
 }
