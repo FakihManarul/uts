@@ -3,10 +3,9 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-   <>
-    <Navbar />
-    <Hero />
-  </>
-  )
-  
+    <div className="w-max bg-white">
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
