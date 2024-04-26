@@ -14,10 +14,10 @@ datasource db {
   directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
-model Contact {
+model Buah {
   id String @id @default(cuid())
-  name String
-  Phone String
+  buah String
+  harga String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
